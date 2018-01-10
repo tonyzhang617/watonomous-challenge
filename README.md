@@ -1,14 +1,15 @@
 <!--
-  This is a Markdown file. To view it properly, go to https://github.com/tonyzhang617/watonomous-challenge
+  All the project files are hosted at https://github.com/tonyzhang617/watonomous-challenge.
+  This is a Markdown file. To view it properly, go to https://github.com/tonyzhang617/watonomous-challenge.
 -->
 
 # How to Get Up and Running
-The source file is a Jupyter Notebook. You can use Enthought Canopy to view and run it. You should use Canopy with **Python 3.5** for your OS. [Download it here](https://store.enthought.com/downloads/).
+The source file `lane_line_finding.ipynb` is a Jupyter Notebook. You can use Enthought Canopy to view and run it. You should use Canopy with **Python 3.5** for your OS. [Download it here](https://store.enthought.com/downloads/).
 
 # Required Packages
-The OpenCV library is required for the notebook. On the Welcome page of Canopy:
+The OpenCV library is required for the notebook `lane_line_finding.ipynb`. Open the Canopy program:
 
-**Open Package Manager &rarr; Search for `opencv` &rarr; Install the `opencv` package**
+**Open Package Manager on the Welcome page &rarr; Search for `opencv` &rarr; Install the `opencv` package**
 
 Now you can double click the notebook file `lane_line_finding.ipynb` to open it. Canopy will open it as a Jupyter Notebook in your web browser.
 

@@ -1,5 +1,6 @@
 <!--
-  This is a Markdown file. To view it properly, go to https://github.com/tonyzhang617/watonomous-challenge/blob/master/writeup.md
+  All the project files are hosted at https://github.com/tonyzhang617/watonomous-challenge.
+  This is a Markdown file. To view it properly, go to https://github.com/tonyzhang617/watonomous-challenge/blob/master/writeup.md.
 -->
 
 # Lane Line Finding Challenge Write-up By Tianyi (Tony) Zhang
@@ -21,7 +22,7 @@ By reading the Jupyter Notebook in the provided GitHub repository, I was able to
 2. The accuracy of edge detection is negatively impacted by image noise. Thus the image need to be first processed with a Gaussian Blur to be rid of noise.
 3. The image has to be in grayscale before it is processed with Gaussian Blur.
 4. The Hough Line Transform is able to detect straight lines in an image. However, edge detection needs to be applied beforehand.
-5. Region of interest can be applied to focus on the mostly likely area for lane lines.
+5. Region of interest can be applied to focus on the mostly likely area for lane lines to be in.
 
 From these findings, I came up with the following pipeline:
 
@@ -47,7 +48,7 @@ I spent quite some time playing with the values for color range selection. Initi
 ### Room for Improvement
 My solution has the following flaws:
 1. The program only recognizes straight lane lines in the center of the image. If the vehicle is changing lines and turning in the picture, the program would mostly likely fail.
-2. Only yellow and white lane lines are recognized
+2. Only yellow and white lane lines are recognized.
 3. The program focuses entirely on the lower half of the image. Thus if the road is going uphill in front of the vehicle, the lines get cut off.
 4. Only lane line segments are recognized by the program. I would like to add the feature for extending the lines.
 
