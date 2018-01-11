@@ -3,6 +3,8 @@
   This is a Markdown file. To view it properly, go to https://github.com/tonyzhang617/watonomous-challenge.
 -->
 
+**This was a 30-hour challenge. To see the write-up for my thought process and findings, go [here](https://github.com/tonyzhang617/watonomous-challenge/blob/master/writeup.md).**
+
 # How to Get Up and Running
 The source file `lane_line_finding.ipynb` is a Jupyter Notebook. You can use Enthought Canopy to view and run it. You should use Canopy with **Python 3.5** for your OS. [Download it here](https://store.enthought.com/downloads/).
 
